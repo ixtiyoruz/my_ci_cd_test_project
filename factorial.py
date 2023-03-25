@@ -9,11 +9,11 @@ def factorial(number_:int):
     """
     this function computes factorial for one number
     """
-    time.sleep(.1)
+    time.sleep(.1)   
     res = 1
-    for i in range (1,number_+1):
+    for i in range (1,number_+1):   
         res = res * i
-    return res
+    return res   
 
 def sum_factorial():
     """
@@ -21,7 +21,7 @@ def sum_factorial():
     """
     for i in range(50):
 
-        final_list.append(factorial(i)) 
+    final_list.append(factorial(i)) 
 
     result=sum(final_list)
 
